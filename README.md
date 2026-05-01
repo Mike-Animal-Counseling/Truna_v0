@@ -43,7 +43,7 @@ Truna turns product requirements, user feedback, and browser verification eviden
 <!--
 ## Screenshots
 
-![Homepage](assets/truna-homepage.png)
+![Homepage](truna-homepage.png)
 
 ![Sample Launch Review](assets/sample-launch-review.png)
 
