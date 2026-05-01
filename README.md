@@ -38,8 +38,6 @@ Truna turns product requirements, user feedback, and browser verification eviden
 
 ## Product Demo
 
-**Live Demo:** https://truna-frontend.vercel.app/
-
 <!-- Add screenshots after uploading images to the assets folder -->
 
 <!--
