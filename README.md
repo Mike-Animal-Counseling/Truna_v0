@@ -38,19 +38,7 @@ Truna turns product requirements, user feedback, and browser verification eviden
 
 ## Product Demo
 
-<!-- Add screenshots after uploading images to the assets folder -->
-
-<!--
-## Screenshots
-
-![Homepage](truna-homepage.png)
-
-![Sample Launch Review](assets/sample-launch-review.png)
-
-![Core Flows](assets/core-flows.png)
-
-![Repair Handoff](assets/repair-handoff.png)
--->
+![Homepage](./truna-homepage.PNG)
 
 ---
 
