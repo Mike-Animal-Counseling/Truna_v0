@@ -1,5 +1,7 @@
 # Truna
 
+本仓库为 Truna 的公开介绍与展示页，应用源码在私有仓库维护。
+
 Truna is an AI-assisted pre-launch verification platform for AI-built applications. It helps builders test launch-critical user flows, collect evidence, identify false-success risks, and generate repair handoffs before launch.
 
 **Live Demo:** https://truna-frontend.vercel.app/
