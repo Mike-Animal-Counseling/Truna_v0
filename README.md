@@ -93,3 +93,7 @@ This repository serves as a public project showcase with demo access, product ov
 - Deeper feedback trend analysis
 - Team workspaces and collaboration
 - Stronger CI/CD and monitoring
+
+## Security and deployment
+
+Read the [security policy](SECURITY.md) and [production requirements](docs/PRODUCTION_SECURITY.md) before deployment.
