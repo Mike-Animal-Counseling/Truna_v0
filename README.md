@@ -1,10 +1,12 @@
 # Truna
 
-本仓库为 Truna 的公开介绍与展示页，应用源码在私有仓库维护。
+This repository is Truna's public showcase. Production application source is maintained privately.
 
 Truna is an AI-assisted pre-launch verification platform for AI-built applications. It helps builders test launch-critical user flows, collect evidence, identify false-success risks, and generate repair handoffs before launch.
 
 **Live Demo:** https://truna-frontend.vercel.app/
+
+**Built with:** TypeScript · Next.js · Express · Prisma · Playwright.
 
 ---
 
@@ -83,6 +85,20 @@ I designed and built Truna end-to-end, including the product concept, frontend i
 The production source code is currently private because Truna is an active product prototype under continued development.
 
 This repository serves as a public project showcase with demo access, product overview, architecture summary, and future roadmap.
+
+---
+
+## Runnable TypeScript Example
+
+[`report-example.ts`](./report-example.ts) demonstrates typed verification evidence and a small report summarizer. It uses synthetic data and an illustrative report format, independently of the private application source.
+
+Run with Node.js 22.18+ or 24+; no dependencies or credentials are needed:
+
+```bash
+node report-example.ts
+```
+
+The three examples show a failed save despite a success message, a submission without outcome evidence, and an update with confirmed evidence. They produce `blocked`, `needs-review`, and `checks-passed` summaries respectively.
 
 ---
 
