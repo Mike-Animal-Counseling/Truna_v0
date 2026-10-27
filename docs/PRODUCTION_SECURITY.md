@@ -1,5 +1,9 @@
-# Production security requirements
+# Security and Deployment Notes
 
-This public repository contains showcase/concept assets rather than the deployed application's implementation. It has no supported production server to deploy. Do not treat scanning these assets as a security review of private source code or a running service.
+Truna is deployed at [truna-frontend.vercel.app](https://truna-frontend.vercel.app/). The application's implementation is maintained in a separate private source repository.
 
-Do not add credentials, private exports or customer information to images, screenshots, videos, example configuration or Git history. If executable source is published later, add locked dependencies, tests, authentication/authorization, secure deployment settings and language-specific vulnerability checks before public deployment.
+This public repository contains product documentation, screenshots, and a standalone TypeScript report example. Security scans of this repository cover those public files; they do not establish the security of the private application source or deployed service.
+
+The TypeScript example runs locally with synthetic data and makes no network requests. It is a developer reference, not a server or an application deployment package. Application dependencies, access controls, provider configuration, and operational deployment requirements are maintained with the private application source.
+
+Do not add credentials, private exports, or customer information to documentation, screenshots, videos, example configuration, or Git history. Report vulnerabilities using [SECURITY.md](../SECURITY.md).
